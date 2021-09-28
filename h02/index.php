@@ -4,7 +4,7 @@
 	$b = 'die niet werken';
 	$c = 10000;
 	
-	echo $a . ' ik heb allen ' . $c . ' manieren gevonden ' . $b . nl2br("\n-Thomas edison");
+	echo $a . ' ik heb alleen ' . $c . ' manieren gevonden ' . $b . nl2br("\n-Thomas edison");
 
 	$a1 = 'die geen fout';
 	$b1 = 'en';
