@@ -3,7 +3,6 @@ function blankLine() {
     echo nl2br("\n");
 }
 
-
 $collor = "green";
 for($numberIMG = 1; $numberIMG < 11; $numberIMG++) {
 
