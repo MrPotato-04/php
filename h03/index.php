@@ -35,3 +35,27 @@ if($leeftijd <= 12 or $leeftijd >= 65) {
 echo "eind prijs: " . $eindprijs;
 blankLine();
 blankLine();
+
+//tried using map like jscript but that made me flip my table (╯°□°）╯︵ ┻━┻
+$testArray = ["De spartelkuikens", 25, "De waterbuffels", 35, "Plonsmderin", 11];
+$j = 0;
+$astrixFIG = "*";
+
+echo "* inplaats van plaatje";
+blankLine();
+
+foreach ($testArray as &$value) {
+    echo $value . " ";
+    if($j % 2 === 1) {
+        $valueTMP = $value / 5;
+        for($h = 0; $h < $valueTMP; $h++) {
+            echo $astrixFIG;
+        }
+        echo "<br>";
+    }
+    $j++;
+}
+
+
+
+
