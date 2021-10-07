@@ -1,5 +1,5 @@
 <?php
-require '../funtions.php';
+require '../functions/funtions.php';
 
 $collor = "green";
 for($numberIMG = 1; $numberIMG < 11; $numberIMG++) {
