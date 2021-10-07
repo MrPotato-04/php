@@ -1,7 +1,5 @@
 <?php
-function blankLine() {
-    echo nl2br("\n");
-};
+require '../funtions.php';
 
 function tempConvert($cels) {
     $fahr = ($cels * 9.0/5.0) + 32.0;

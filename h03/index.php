@@ -1,7 +1,5 @@
 <?php
-function blankLine() {
-    echo nl2br("\n");
-}
+require '../funtions.php';
 
 $collor = "green";
 for($numberIMG = 1; $numberIMG < 11; $numberIMG++) {
