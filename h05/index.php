@@ -1,5 +1,5 @@
 <?php
-require '../functions/funtions.php';
+require './../functions/funtions.php';
 ?>
 <body>
 	<form action="result.php" method="POST">

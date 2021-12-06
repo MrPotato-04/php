@@ -1,6 +1,6 @@
 <?php
-require '../funtions.php';
-
+require './../functions/funtions.php';
+echo "check console";
 console_log($_POST);
             blankLine();
             if(!isset($_POST['knop'])) { 
