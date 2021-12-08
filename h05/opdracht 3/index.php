@@ -7,7 +7,7 @@
     </form>
     <p><?php if (isset($_POST['email-adres'])) {
             $bool = false;
-            $usernames = ['piet@worldonline.nl', 'klaas@carpets.nl', 'ruushendriks@wegweg.nl'];
+            $usernames = ['piet@worldonline.nl', 'klaas@carpets.nl', 'truushendriks@wegweg.nl'];
             $passwords = ['doetje123', 'snoepje777', 'arkiearkie201'];
             for ($x = 0; $x <= 2; $x++) {
                 if (($_POST['email-adres'] === $usernames[$x]) && ($_POST['wachtwoord'] === $passwords[$x]) && $bool !== true) {
